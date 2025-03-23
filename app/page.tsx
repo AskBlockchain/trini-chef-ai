@@ -55,7 +55,7 @@ export default function Chat() {
         </div>
         <form onSubmit={handleSubmit} className="flex justify-center">
           <input
-            className="w-[95%] p-2 mb-8 border border-gray-300 rounded shadow-xl text-black"
+            className="w-[95%] p-2 mb-8 border border-gray-300 rounded shadow-xl text-white"
             value={input}
             placeholder="Say something..."
             onChange={handleInputChange}
